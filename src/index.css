@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply box-border;
+}
+
+a {
+  @apply cursor-pointer hover:underline hover:text-blue-500;
+}
